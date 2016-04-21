@@ -37,7 +37,7 @@ public class Driver {
         File extensionChrome = new File("CSS-and-XPath-checker_v0.7.crx");
         ChromeOptions options = new ChromeOptions();
         options.addExtensions(extensionChrome);
-        options.addArguments("--start-maximized");
+        options.addArguments("--kiosk");
 
         DesiredCapabilities capabilitiesChrome = DesiredCapabilities.chrome();
 
